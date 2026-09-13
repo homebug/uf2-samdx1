@@ -12,7 +12,6 @@
 //#define USB_PID 0x024D
 
 #define LED_PIN PIN_PA11
-#define LED_TX_PIN PIN_PA27
-#define LED_RX_PIN PIN_PB28
+// The board has one status LED; PA27/PA28 are expansion signals.
 
 #endif
